@@ -1,0 +1,1 @@
+package by.belstu;public interface IShow {    String show();}

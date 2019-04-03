@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="contribs/Jamie Tsao/|src/main/java/|tests/src/java/|contribs/CekiGulcu/|contribs/JimMoore/|contribs/ThomasFenner/|src/main/javadoc/|src/performance/java/" kind="src" path="lib/apache-log4j-1.2.17"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/contribs/CekiGulcu"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/contribs/Jamie Tsao"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/contribs/JimMoore"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/contribs/ThomasFenner"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/src/main/java"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/src/main/javadoc"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/src/performance/java"/>
+	<classpathentry kind="src" path="lib/apache-log4j-1.2.17/tests/src/java"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="out/production/lab3"/>
+</classpath>

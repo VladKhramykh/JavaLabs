@@ -1,0 +1,1 @@
+package by.belstu;class Employee implements IShow{    String firstName;    String secondName;    double salary;    public String getFirstName() {        return firstName;    }    public String getSecondName() {        return secondName;    }    double getSalary(){        return salary;    }    public String show(){        return super.toString();    }}
