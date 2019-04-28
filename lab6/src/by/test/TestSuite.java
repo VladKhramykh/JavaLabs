@@ -1,0 +1,1 @@
+package by.test;import by.belstu.ItCompany;import org.junit.runners.Suite;import org.junit.runner.RunWith;@RunWith(Suite.class)@Suite.SuiteClasses({ItCompanyTest.class, DeveloperTest.class})public class TestSuite {    //nothing}

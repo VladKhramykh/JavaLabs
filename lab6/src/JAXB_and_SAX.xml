@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<itCompany>
+    <nameCompany>EPAM</nameCompany>
+    <directorFirstName>Виталя</directorFirstName>
+    <directorSecondName>Вырковский</directorSecondName>
+    <employees>
+        <firstName>Владислав</firstName>
+        <secondName>Храмых</secondName>
+        <type>class by.belstu.Employees.Developer</type>
+        <salary>6599.0</salary>
+        <position>Senior</position>
+    </employees>
+    <employees>
+        <firstName>Диана</firstName>
+        <secondName>Агапкина</secondName>
+        <type>class by.belstu.Employees.Developer</type>
+        <salary>599.0</salary>
+        <position>Junior</position>
+    </employees>
+    <employees>
+        <firstName>Евгений</firstName>
+        <secondName>Немкевич</secondName>
+        <type>class by.belstu.Employees.SystemAdministrator</type>
+        <salary>1299.0</salary>
+    </employees>
+    <employees>
+        <firstName>Денис</firstName>
+        <secondName>Калач</secondName>
+        <type>class by.belstu.Employees.Developer</type>
+        <salary>1499.0</salary>
+        <position>Middle</position>
+    </employees>
+</itCompany>
