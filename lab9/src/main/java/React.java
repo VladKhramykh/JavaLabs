@@ -1,0 +1,1 @@
+import io.reactivex.Flowable;public class React {    public void RxTask(){        Flowable.just("Hello world").subscribe(System.out::println);        Flowable<Integer> flow = Flowable.range(1, 10)                .map(v -> v * v)                .filter(v -> v % 2 == 0);        flow.subscribe(System.out::println);    }}
