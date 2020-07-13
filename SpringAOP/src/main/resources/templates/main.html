@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Hello World!</title>
+</head>
+<body>
+<h1>Hello</h1>
+
+<table style="border: black solid 1px">
+    <thread>
+        <tr>Nickname</tr>
+        <tr>Command</tr>
+    </thread>
+    <tbody>
+    <tr th:if="${players.empty}">
+        <td colspan="2">No players in command</td>
+    </tr>
+    <tr th:each="player : ${players}">
+        <td><span th:text="${player.username}"></span></td>
+        <td><span th:text="${player.command.name}"></span></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

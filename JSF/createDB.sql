@@ -1,3 +1,5 @@
+create database `bank`;
+use bank;
 create table if not exists users (
 	id bigint auto_increment,
     firstName varchar(255),
